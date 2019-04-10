@@ -1,1 +1,1 @@
-# 8bits_gray_image_read_write_rotation_interpolation_with_pure_C-C++
+# 8bits gray BMP rotation with pure cpp
