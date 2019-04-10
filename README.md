@@ -1,1 +1,1 @@
-# 8bits gray BMP rotation with pure cpp
+# 8bits gray BMP rotation with pure c++
