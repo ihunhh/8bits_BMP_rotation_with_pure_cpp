@@ -199,7 +199,8 @@ bool BMPwriter(unsigned char* Img, string filename, int _width, int _height, uns
 	header[25] = (height >> 24) &0x000000ff; 
 	//printf("%ld, %ld, %ld\n", file_size, width, height);
 	FILE* fp = fopen(filename.c_str(),"w+b");
-	if(fp == NULL)exit(-1);
+	if(fp == NULL)
+		exit(-1);
 	fwrite(header, sizeof(unsigned char), 54, fp);
 	fwrite(plant, sizeof(unsigned char), 1024, fp);
 	fwrite(Img, sizeof(unsigned char), _height*(_width+3), fp);
@@ -219,9 +220,9 @@ int main() {
 
 	save = BMPwriter(img, "rotation_1.bmp", *new_width, *new_height, a.getPlant());
 	if(save==true)
-	printf("Success!!!\n");
+		printf("Success!!!\n");
 	else
-	printf("ERROR\n");
+		printf("ERROR\n");
 	return 0;
 
 }
