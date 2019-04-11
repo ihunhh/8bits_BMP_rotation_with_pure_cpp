@@ -203,7 +203,7 @@ bool BMPwriter(unsigned char* Img, string filename, int _width, int _height, uns
 		exit(-1);
 	fwrite(header, sizeof(unsigned char), 54, fp);
 	fwrite(plant, sizeof(unsigned char), 1024, fp);
-	fwrite(Img, sizeof(unsigned char), _height*(_width+3), fp);
+	fwrite(Img, sizeof(unsigned char), _height*_width, fp);
 	fclose(fp);
 	return true;
 }
