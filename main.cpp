@@ -212,7 +212,7 @@ bool BMPwriter(unsigned char* Img, string filename, int _width, int _height, uns
 int main() {
 	bool save;
 	int new_w, new_h;
-	grayBMP a("123.bmp");
+	grayBMP a("lena.bmp");
 	int *new_hw_p = (int*)malloc(sizeof(int)*2);
 	int *new_width=(int*)malloc(sizeof(int));
 	int *new_height=(int*)malloc(sizeof(int));
