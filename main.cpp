@@ -7,34 +7,33 @@ using namespace std;
 #define PI 3.14159265
 class grayBMP {
 private:	
-    int width;
-    int height;
-    unsigned char header[54];
-    unsigned char *pixels;
-    unsigned char *plant;
-    int size;
-    string filename;
+	int width;
+	int height;
+	unsigned char header[54];
+	unsigned char *pixels;
+	unsigned char *plant;
+	int size;
+	string filename;
 
 
 public:
 	grayBMP(string _filename){
-    filename = _filename;
+		filename = _filename;
 		FILE *f = fopen(_filename.c_str(), "rb");
-    plant=(unsigned char*)malloc(sizeof(unsigned char)*1024);
-    fread(header, sizeof(unsigned char), 54, f);
-    width = *(int*)(header+18);
-    height = *(int*)(header+22);
-    size = width * height; 
-    fread(plant, sizeof(unsigned char), 1024, f);
-    pixels = (unsigned char*)malloc(sizeof(unsigned char)*size);
-    int r = fread(pixels, sizeof(unsigned char), size, f);
-    if(r!=size)exit(-1);
-//    printf("%d, %d\n", r ,size);
-    fclose(f);
+		plant=(unsigned char*)malloc(sizeof(unsigned char)*1024);
+		fread(header, sizeof(unsigned char), 54, f);
+		width = *(int*)(header+18);
+		height = *(int*)(header+22);
+		size = width * height; 
+		fread(plant, sizeof(unsigned char), 1024, f);
+		pixels = (unsigned char*)malloc(sizeof(unsigned char)*size);
+		int r = fread(pixels, sizeof(unsigned char), size, f);
+		if(r!=size)exit(-1);
+		//    printf("%d, %d\n", r ,size);
+		fclose(f);
     
-//    if(r!=size)exit(1);
-  
-  }
+		//    if(r!=size)exit(1);
+  	}
 	
 	int getWidth(){
 		return width;
@@ -48,9 +47,9 @@ public:
 	unsigned char* getImg(){
 		return pixels;
 	}
-  unsigned char* getPlant(){
-    return plant;
-  }
+	unsigned char* getPlant(){
+	return plant;
+	}
 
 
 
