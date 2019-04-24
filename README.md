@@ -8,7 +8,7 @@
   
   * Procedure:
   
-    * Generating a trigonometric functions list for saving computing overhead
+    * Generating a trigonometric functions list for ***saving computing overhead***
   
     * Computing new image size
     
