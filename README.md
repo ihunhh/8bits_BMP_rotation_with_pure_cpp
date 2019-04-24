@@ -4,5 +4,5 @@
 
  ** original image:
  
-    ![lena_ori](/lena.bmp)
+   ![lena_ori](/lena.bmp)
 
