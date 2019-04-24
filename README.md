@@ -16,11 +16,11 @@
 
   * original image:
  
-     <img src="/woman.bmp" width="222">
+     <img src="/woman.bmp" width="368">
      
   * ratation 279 degree:
   
-     <img src="/rotation_1.bmp" width="222">
+     <img src="/rotation_1.bmp" width="368">
   
 
 
