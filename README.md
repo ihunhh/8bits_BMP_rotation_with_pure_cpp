@@ -4,5 +4,6 @@
 
  ** original image:
  
-   ![lena_ori](/lena.bmp)
+   <img src="/lena.bmp" width="666">
+
 
