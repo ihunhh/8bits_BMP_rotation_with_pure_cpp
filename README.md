@@ -4,7 +4,7 @@
 
   * ***Without any CV API***
   
-  * Interpolation method based on ***Nearest Neighbor***
+  * Interpolation method is based on ***Nearest Neighbor***
   
   * Procedure:
   
