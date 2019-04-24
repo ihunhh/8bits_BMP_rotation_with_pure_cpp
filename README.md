@@ -1,17 +1,18 @@
 # 8bits gray BMP rotation with pure C++
 
-* For 8bits gray BMP image ratation between 0~360 degree
+* For ***8bits gray BMP*** image ratation between ***0~360*** degree
 
-  * Without any CV API
+  * ***Without any CV API***
+  
+  * Interpolation method based on ***Nearest Neighbor***
   
   * Procedure:
   
     * Generating a trigonometric functions list for saving computing overhead
   
     * Computing new image size
-  
-  
-  
+    
+    * Mapping each point in new image back to original image (360 - withch the degree you want to ratation)
 
   * original image:
  
