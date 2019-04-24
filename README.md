@@ -4,6 +4,6 @@
 
   * original image:
  
-   <img src="/lena.bmp" width="222">
+     <img src="/lena.bmp" width="222">
 
 
