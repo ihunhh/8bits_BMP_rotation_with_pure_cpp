@@ -12,7 +12,7 @@
   
     * Computing new image size
     
-    * Mapping each point in new image back to original image (360 - withch the degree you want to ratation)
+    * Mapping each point in new image back to original image ***(360 - withch the degree you want to ratation)***
 
   * ***Original image:***
  
