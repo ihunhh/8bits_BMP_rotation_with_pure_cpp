@@ -14,11 +14,11 @@
     
     * Mapping each point in new image back to original image (360 - withch the degree you want to ratation)
 
-  * original image:
+  * ***Original image:***
  
      <img src="/woman.bmp" width="368">
      
-  * ratation 279 degree:
+  * ***Rotation 279 degree:***
   
      <img src="/rotation_1.bmp" width="368">
   
