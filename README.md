@@ -13,14 +13,16 @@
     * Computing new image size
     
     * Mapping each point in new image back to original image ***(360 - withch the degree you want to ratation)***
+    
+  * **Example**
 
-  * ***Original image:***
+    * ***Original image:***
  
-     <img src="/woman.bmp" width="368">
+       <img src="/woman.bmp" width="368">
      
-  * ***Rotation 279 degree:***
+    * ***Rotation 279 degree:***
   
-     <img src="/rotation_1.bmp" width="368">
+       <img src="/rotation_1.bmp" width="368">
   
 
 
